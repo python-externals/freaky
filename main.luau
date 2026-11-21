@@ -63,6 +63,7 @@ function p(size)
 	part.Size = size
 	part.TopSurface = Enum.SurfaceType.Smooth
 	part.BottomSurface = Enum.SurfaceType.Smooth
+	part.CanCollide=false
 
 	return part
 end
